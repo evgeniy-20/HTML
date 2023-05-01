@@ -1,0 +1,140 @@
+/*Даний текст. Встановіть відстань між літерами в 1px. */
+
+.block-1 p {
+    letter-spacing: 1px;
+}
+
+/*Даний текст. Встановіть відстань між літерами в -1px. */
+
+.block-2 p {
+    letter-spacing: -1px;
+}
+
+/*Даний текст. Встановіть відстань між літерами в 3px. */
+
+.block-3 p {
+    letter-spacing: 3px;
+}
+
+/*Даний текст. Встановіть у цьому тексті відстань між словами 3px. */
+
+.block-4 p {
+    word-spacing: 3px;
+}
+
+/*Даний текст. Встановіть у цьому тексті відстань між словами 0px.. */
+
+.block-5 p {
+    word-spacing: 0;
+}
+
+/*Даний текст. Перетворіть літери цього тексту у верхній регістр. */
+
+.block-6 p {
+    text-transform: uppercase;
+}
+
+/*Даний текст. Візьміть деякі слова з цього тексту в теги span. Перетворіть літери цих тегів у верхній регістр. */
+
+.block-7 span {
+    text-transform: uppercase;
+}
+
+/*Дано абзац з прізвищем ім'ям та по батькові. Перетворіть цей абзац так, щоб усі слова починалися з великої літери. */
+
+.block-8 span {
+    text-transform: uppercase;
+}
+
+/*Дано довгий текст. Вирівняйте останній рядок цього тексту праворуч. */
+
+.block-9 p {
+    text-align-last: right;
+}
+
+.block-10 p::first-letter {
+    color: red;
+	font-size: 27px;
+}
+.block-11 p::first-line {
+    color: red;
+	font-size: 27px;
+}
+
+/* Calculation functions in CSS */
+
+/* Даний блок. Зробіть його ширину 100px менше 100% відсотків. */
+
+.parent {
+	border: 1px solid green;
+}
+
+.child {
+	width: calc(100% - 100px);
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/* Даний блок. Зробіть його ширину 200px більше 50% відсотків. */
+
+.parent1 {
+	border: 1px solid green;
+}
+
+.child1 {
+	width: calc(50% + 200px);
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/*Виведіть на екран який-небудь текст так, щоб перенесення та відступи в ньому стояли так, як це зроблено в редакторі коду.*/
+
+.block-12 p {
+	width: 200px;
+	white-space: pre;
+	border: 1px solid red;
+}
+
+.block-13 p {
+	text-decoration-style: wavy;
+}
+.block-14 p {
+	text-decoration-style: dotted;
+}
+.block-15 p {
+	text-decoration-style: dotted;
+}
+.block-16 p {
+	text-decoration-style: double;
+}
+
+/* Дан див з шириною 80%. Зробіть так, щоб текст у цьому диві вишикувався в колонки з шириною по 300px. */
+
+.block-17 {
+	width: 80%;
+	border: 1px solid red;
+}
+
+.block-17 p {
+	column-width: 300px;
+}
+
+.block-18 {
+	width: 1000px;
+	border: 1px solid red;
+}
+
+.block-18 p {
+	column-width: 300px;
+}
+
+.block-19 p {
+	text-decoration-style: double;
+}
+
+.block-20 p {
+	text-decoration-style: double;
+}
+

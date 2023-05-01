@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+}
+
+.block-1 {
+    background: white;
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: background 1s ease-out;
+}
+
+@keyframes move {
+    from {
+		margin-left: 0px;
+	}
+	to {
+		margin-left: 400px;
+	}
+}
+
+.block-2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    animation: move 4s infinite;
+}
+.block-3 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-3:hover {
+    transform: rotate(45deg);
+    transition: transform 5s ease 3s;
+}
+
+.block-4 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-4:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out 1s;
+}
+
+.block-5 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-5:hover {
+    transform: skew(45deg);
+    transition: transform 2s ease-in 1s;
+}
+.block-6 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-6:hover {
+    transform: translate(30px);
+}
+
+.block-7 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-7:hover {
+    transform: translate(-15px, -30px);
+}
+
+.block-8 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-8:hover {
+    transform-origin: 100% 100%;
+    transform: rotate(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+.block-9 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-9:hover {
+    transform-origin: left bottom;
+    transform: rotate(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+.block-10 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-10:hover {
+    transform-origin: center center;
+    transform: rotate(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+
+.block-11 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-11:hover {
+    transform-origin: top bottom;
+    transform: rotate(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+
+.block-12 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-12:hover {
+    transform-origin: right bottom;
+    transform: scale(1.5);
+    transition: transform 3s ease-in-out;
+}
+
+
+.block-13 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-13:hover {
+    transform-origin: right top;
+    transform: scale(1.5);
+    transition: transform 3s ease-in-out;
+}
+
+.block-14 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-14:hover {
+    transform-origin: right bottom;
+    transform: skew(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+.block-15 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-15:hover {
+    transform-origin: left top;
+    transform: skew(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+.block-16 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.block-16:hover {
+    transform-origin: right bottom;
+    transform: skew(45deg);
+    transition: transform 3s ease-in-out;
+}
+
+.block-17 {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.hover {
+    position: absolute;
+    top: 75px;
+    left: 150%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+    transform-origin: -200px center;
+    animation: anim1 8s linear infinite, anim2 8s linear infinite;
+}
+

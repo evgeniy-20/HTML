@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    width: 400px;
+    height: 600px;
+    border: 1px dotted blue;
+}
+.child {
+    height: 500px;
+    border: 1px solid red;
+    margin: 50px;
+}
+.block-1 {
+    border: 1px solid green;
+    padding: 20px;
+    width: 500px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block-2 {
+    border: 1px solid red;
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}

@@ -1,0 +1,18 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    width: 500px;
+    text-align: center;
+}
+h2 {
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    width: 500px;
+    color: green;
+}
+p {
+    width: 500px;
+    text-indent: 40px;
+}

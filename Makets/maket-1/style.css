@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 700px;
+    border: 1px solid black;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.menu {
+    display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+	background-color: #484848;
+}
+
+.menu a {
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #fff;
+	font: bold 14px Arial;
+}
+.menu a:hover, .menu a.active {
+	color: #484848;
+	background-color: #fff;
+}
+.container {
+	padding: 0 30px 20px;
+}
+.container h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.container p {
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font: 17px/20px "Times New Roman";
+}
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container a:hover {
+    color: green;
+    text-decoration: underline;
+}
